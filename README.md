@@ -12,5 +12,8 @@ I'm a student with a passion for making a change through technology. While that'
     - 🐍 Python
     - 🌐 HTML, CSS, JS
     - ⌨️ Bash shell
+- 💭 I also hope to learn:
+    - ⚛ React
+    - ⚛ React Native
 
 Feel free to take a look around! ✌️
