@@ -14,7 +14,7 @@ I'm a student with a passion for making a change through technology. While that'
 
 #### 💻 I'm learning...
 
-- 🌐 HTML, CSS, JS
+- 🌐 Gatsby
 - ⌨️ Bash shell
 
 ---
