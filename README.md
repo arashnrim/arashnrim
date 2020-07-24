@@ -19,4 +19,16 @@ I'm a student with a passion for making a change through technology. While that'
 
 ---
 
+#### ⚡️ Recent activity
+
+<!--START_SECTION:activity-->
+
+
+
+
+
+<!--END_SECTION:activity-->
+
+---
+
 Feel free to take a look around! ✌️
