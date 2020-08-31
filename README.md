@@ -12,11 +12,6 @@ I'm a student with a passion for making a change through technology. While that'
 - 🤖 Kotlin (Android)
 - 🐍 Python
 
-#### 💻 I'm learning...
-
-- 🌐 Gatsby
-- ⌨️ Bash shell
-
 ---
 
 Feel free to take a look around! ✌️
