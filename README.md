@@ -12,10 +12,11 @@ I'm a student with a passion for making a change through technology. While that 
 - 🤖 Kotlin (Android)
 - 🐍 Python
 
-#### 💭 I hope to learn...
-
-- 🌐 Gatsby
-- ⌨️ Bash shell
+```
+// 💭 I hope to learn...
+//
+//    Come back soon!
+```
 
 ---
 
