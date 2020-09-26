@@ -13,9 +13,8 @@ I'm a student with a passion for making a change through technology. While that 
 - 🐍 Python
 
 ```
-// 💭 I hope to learn...
-//
-//    Come back soon!
+// Come back soon for more!
+// I may be planning to learn new stuff soon.
 ```
 
 ---
