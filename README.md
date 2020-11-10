@@ -1,17 +1,19 @@
-### 👋 Hello world, I'm **Arash**!
+## 👋 Hello world, I'm Arash!
 
 I'm a student with a passion for making a change through technology. While that one-liner is fairly ambiguous, it gives me a purpose and motivation to create interesting (and hopefully helpful!) stuff.
 
-<img align='right' src='https://github-readme-stats.vercel.app/api?username=arashnrim&show_icons=true&title_color=222222&icon_color=222222&hide=stars&count_private=true&hide_border=true'>
-
 ---
 
-#### 🛠 I'm working with...
+### 🛠 I work with...
 
 - 🐦 Swift
 - 🤖 Kotlin (Android)
 - 🐍 Python
 
+### 💭 I hope to learn...
+- 📱 Flutter
+- ⚛️ React
+
 ---
 
-Feel free to take a look around! ✌️
+Feel free to take a look around! Thanks for stopping by. ✌️
