@@ -1,0 +1,8 @@
+# virtual environment files
+**/bin/
+**/include/
+**/lib/
+**/pyvenv.cfg
+
+# configuration
+/.vscode/
