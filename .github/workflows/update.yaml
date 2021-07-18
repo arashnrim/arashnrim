@@ -1,9 +1,8 @@
 name: Update README
 
-on: 
+on:
   push:
-    branches:
-      - main
+    - branch: [main, enhancements]
   schedule:
     - cron: "0 0 * * 0"
 
@@ -33,6 +32,6 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -m "📝 Update README" -a
+          git commit -amS "📝 Update README"
           git push
       
