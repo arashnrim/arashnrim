@@ -7,7 +7,7 @@ I'm a student with a passion for making a change through technology. While that 
 
 ### I'm using...
 
-- Python (in 3 projects)
+- Python (in 2 projects)
 - TypeScript (in 1 project)
 - Swift (in 2 projects)
 
