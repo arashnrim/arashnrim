@@ -24,10 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pylint
           pip install -r update/requirements.txt 
-      - name: Lint with pylint
-        run: pylint update/main.py
       - name: Run Python script
         run: python update/main.py
       
