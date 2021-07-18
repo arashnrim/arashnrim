@@ -26,5 +26,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r update/requirements.txt 
       - name: Run Python script
-        run: python update/main.py
+        run: |
+          cd update
+          python main.py
       
