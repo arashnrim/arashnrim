@@ -33,4 +33,5 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git commit -a -S -m "📝 Update README"
           git push
+        continue-on-error: true
       
