@@ -11,7 +11,7 @@ I'm a student with a passion for making a change through technology. While that 
 - TypeScript (in 1 project)
 - Swift (in 2 projects)
 
-<sub>Last updated: 18 July 2021</sub>
+<sub>Last updated: 19 July 2021</sub>
 
 ---
 
