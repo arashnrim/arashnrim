@@ -5,7 +5,7 @@ I'm a student with a passion for making a change through technology. While that 
 
 ---
 
-### I'm using...
+### 🛠 I'm using...
 
 - Python (in 3 projects)
 - TypeScript (in 1 project)
