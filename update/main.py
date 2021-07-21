@@ -18,7 +18,7 @@ I'm a student with a passion for making a change through technology. While that 
 
 """
 
-with open(".languageignore") as file:
+with open(".projectignore") as file:
     ignored_projects = file.readline().split(",")
 logging.info("Read projects to ignore.")
 
