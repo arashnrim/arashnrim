@@ -18,6 +18,19 @@ I'm a student with a passion for making a change through technology. While that 
 
 """
 
+cache = {}
+
+try:
+    open(".cache")
+except FileNotFoundError:
+    logging.info("No cache found. Proceeding...")
+else:
+    logging.info("Found cache. Proceeding...")
+    with open(".cache") as file:
+        languages = [language.strip().split(",") for language in file.readlines()]
+        for language in languages:
+            cache[language[0]] = int(language[1])
+
 with open(".projectignore") as file:
     ignored_projects = file.readline().split(",")
 logging.info("Read projects to ignore.")
@@ -46,9 +59,19 @@ for repo in repos:
             count[repo["language"]] = 1
             languages.append(repo["language"])
 
+if cache == count:
+    logging.info("No change was found. Aborting process.")
+    logging.info("The program has completed successfully.")
+    sys.exit(0)
+
 logging.info("Appending languages...")
 for language in languages:
     CONTENT += "- {} (in {} project{})\n".format(language, count[language], "s" if count[language] != 1 else "")
+
+logging.info("Logging to cache...")
+with open(".cache", "w") as file:
+    for key, value in count.items():
+        file.write("{},{}\n".format(key, value))
 
 logging.info("Appending end chunk...")
 CONTENT += """
@@ -60,7 +83,7 @@ Feel free to <a href="mailto:hello@arashnrim.me" target="_blank" rel="noreferrer
 """.format(datetime.today().strftime("%d %B %Y"))
 
 logging.info("Writing to file...")
-with open("../README.md", "w") as file:
-    file.write(CONTENT)
+# with open("../README.md", "w") as file:
+#     file.write(CONTENT)
 
 logging.info("The program has completed successfully.")
