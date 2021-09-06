@@ -7,11 +7,11 @@ I'm a student with a passion for making a change through technology. While that 
 
 ### 🛠 I'm using...
 
-- Python (in 3 projects)
+- Python (in 4 projects)
 - TypeScript (in 1 project)
 - Swift (in 2 projects)
 
-<sub>Last updated: 24 July 2021</sub>
+<sub>Last updated: 06 September 2021</sub>
 
 ---
 
