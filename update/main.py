@@ -83,7 +83,7 @@ Feel free to <a href="mailto:hello@arashnrim.me" target="_blank" rel="noreferrer
 """.format(datetime.today().strftime("%d %B %Y"))
 
 logging.info("Writing to file...")
-# with open("../README.md", "w") as file:
-#     file.write(CONTENT)
+with open("../README.md", "w") as file:
+    file.write(CONTENT)
 
 logging.info("The program has completed successfully.")
