@@ -5,7 +5,8 @@ import sys
 import requests
 
 logging.basicConfig(level=logging.INFO, format="[%(levelname)s] %(message)s")
-logging.info("Attempting to update languages in the root README.md file. Initiating...")
+logging.info(
+    "Attempting to update languages in the root README.md file. Initiating...")
 
 CONTENT = """
 ## 👋 Hello world, I'm Arash!
@@ -27,7 +28,8 @@ except FileNotFoundError:
 else:
     logging.info("Found cache. Proceeding...")
     with open(".cache") as file:
-        languages = [language.strip().split(",") for language in file.readlines()]
+        languages = [language.strip().split(",")
+                     for language in file.readlines()]
         for language in languages:
             cache[language[0]] = int(language[1])
 
@@ -36,12 +38,13 @@ with open(".projectignore") as file:
 logging.info("Read projects to ignore.")
 
 logging.info("Attempting to reach GitHub's API...")
-repos = requests.get("https://api.github.com/users/arashnrim/repos?sort=pushed")
-languages = []
+repos = requests.get(
+    "https://api.github.com/users/arashnrim/repos?sort=pushed")
 count = {}
 
 if repos.status_code != 200:
-    logging.critical("Response from GitHub's API returned a non-OK (200) status code. Stopping process for safety.")
+    logging.critical(
+        "Response from GitHub's API returned a non-OK (200) status code. Stopping process for safety.")
     sys.exit(-1)
 
 repos = json.loads(repos.text)
@@ -64,9 +67,15 @@ if cache == count:
     logging.info("The program has completed successfully.")
     sys.exit(0)
 
+logging.info("Sorting languages...")
+count = list(
+    sorted(count.items(), key=lambda language: language[1], reverse=True))
+print(count)
+
 logging.info("Appending languages...")
-for language in languages:
-    CONTENT += "- {} (in {} project{})\n".format(language, count[language], "s" if count[language] != 1 else "")
+for language in count:
+    CONTENT += "- {} (in {} project{})\n".format(language[0],
+                                                 language[1], "s" if language[1] != 1 else "")
 
 logging.info("Logging to cache...")
 with open(".cache", "w") as file:
