@@ -76,8 +76,8 @@ for language in count:
 
 logging.info("Logging to cache...")
 with open(".cache", "w") as file:
-    for key, value in count.items():
-        file.write("{},{}\n".format(key, value))
+    for language in count:
+        file.write("{},{}\n".format(language[0], language[1]))
 
 logging.info("Appending end chunk...")
 CONTENT += """
