@@ -67,9 +67,7 @@ if cache == count:
     sys.exit(0)
 
 logging.info("Sorting languages...")
-count = list(
-    sorted(count.items(), key=lambda language: language[1], reverse=True))
-print(count)
+count = sorted(count.items(), key=lambda language: language[1], reverse=True)
 
 logging.info("Appending languages...")
 for language in count:
