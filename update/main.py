@@ -55,12 +55,11 @@ for repo in repos:
     if repo["name"] in ignored_projects:
         continue
     if not repo["language"] is None:
-        if repo["language"] in languages:
+        if repo["language"] in count.keys():
             count[repo["language"]] += 1
             continue
         else:
             count[repo["language"]] = 1
-            languages.append(repo["language"])
 
 if cache == count:
     logging.info("No change was found. Aborting process.")
