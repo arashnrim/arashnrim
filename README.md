@@ -8,11 +8,11 @@ I'm a student with a passion for making a change through technology. While that 
 ### 🛠 I'm using...
 
 - Python (in 4 projects)
-- TypeScript (in 2 projects)
 - Swift (in 2 projects)
+- TypeScript (in 1 project)
 - JavaScript (in 1 project)
 
-<sub>Last updated: 19 September 2021</sub>
+<sub>Last updated: 20 September 2021</sub>
 
 ---
 
