@@ -1,7 +1,7 @@
 
 ## 👋 Hello world, I'm Arash!
 
-I'm a student with a passion for making a change through technology. While that one-liner is fairly ambiguous, it gives me a purpose and motivation to create interesting (and hopefully helpful!) stuff.
+I'm a student developer from Singapore passionate about delivering simple, efficient, and easy-to-use creations of technology. While that one-liner is fairly ambiguous, it gives me a purpose and motivation to create interesting (and hopefully helpful!) stuff.
 
 ---
 
