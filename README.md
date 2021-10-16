@@ -9,10 +9,9 @@ I'm a student with a passion for making a change through technology. While that 
 
 - Python (in 5 projects)
 - Swift (in 2 projects)
-- JavaScript (in 1 project)
 - TypeScript (in 1 project)
 
-<sub>Last updated: 13 October 2021</sub>
+<sub>Last updated: 16 October 2021</sub>
 
 ---
 
