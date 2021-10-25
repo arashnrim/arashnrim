@@ -1,17 +1,17 @@
 
 ## 👋 Hello world, I'm Arash!
 
-I'm a student with a passion for making a change through technology. While that one-liner is fairly ambiguous, it gives me a purpose and motivation to create interesting (and hopefully helpful!) stuff.
+ I'm a student developer passionate about delivering simple, efficient, and easy-to-use creations of technology. While that one-liner is fairly ambiguous, it gives me a purpose and motivation to create interesting (and hopefully helpful!) stuff.
 
 ---
 
 ### 🛠 I'm using...
 
 - Python (in 5 projects)
+- TypeScript (in 2 projects)
 - Swift (in 2 projects)
-- TypeScript (in 1 project)
 
-<sub>Last updated: 16 October 2021</sub>
+<sub>Last updated: 25 October 2021</sub>
 
 ---
 
