@@ -10,9 +10,8 @@
 - Python (in 5 projects)
 - TypeScript (in 2 projects)
 - Swift (in 2 projects)
-- JavaScript (in 1 project)
 
-<sub>Last updated: 15 November 2021</sub>
+<sub>Last updated: 16 November 2021</sub>
 
 ---
 
