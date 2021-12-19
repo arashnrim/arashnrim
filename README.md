@@ -8,10 +8,10 @@
 ### 🛠 I'm using...
 
 - Python (in 6 projects)
-- TypeScript (in 2 projects)
+- TypeScript (in 3 projects)
 - Swift (in 2 projects)
 
-<sub>Last updated: 04 December 2021</sub>
+<sub>Last updated: 19 December 2021</sub>
 
 ---
 
