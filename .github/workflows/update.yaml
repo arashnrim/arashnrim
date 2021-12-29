@@ -29,15 +29,18 @@ jobs:
       - name: Check for changes
         run: |
           if git diff --exit-code; then
-            echo "CHANGES=true" >> $GITHUB_ENV
+            echo "CHANGES=1" >> $GITHUB_ENV
           else
-            echo "CHANGES=false" >> $GITHUB_ENV
+            echo "CHANGES=0" >> $GITHUB_ENV
           fi
-      - name: Push changes
-        if: ${{ env.CHANGES }}
+      - name: DEBUG Check CHANGES environment variable
         run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add .
-          git commit -a -m "Update projects"
-          git push
+          echo "${{ env.CHANGES }}"
+      # - name: Push changes
+      #   if: ${{ env.CHANGES }}
+      #   run: |
+      #     git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      #     git config --local user.name "github-actions[bot]"
+      #     git add .
+      #     git commit -a -m "Update projects"
+      #     git push
