@@ -26,21 +26,11 @@ jobs:
         run: |
           cd update
           python main.py
-      - name: Check for changes
+      - name: Push changes
+        if: ! [[git diff --exit-code]]
         run: |
-          if git diff --exit-code; then
-            echo "CHANGES=1" >> $GITHUB_ENV
-          else
-            echo "CHANGES=0" >> $GITHUB_ENV
-          fi
-      - name: DEBUG Check CHANGES environment variable
-        run: |
-          echo "${{ env.CHANGES }}"
-      # - name: Push changes
-      #   if: ${{ env.CHANGES }}
-      #   run: |
-      #     git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-      #     git config --local user.name "github-actions[bot]"
-      #     git add .
-      #     git commit -a -m "Update projects"
-      #     git push
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -a -m "Update projects"
+          git push
