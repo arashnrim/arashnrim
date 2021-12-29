@@ -7,11 +7,12 @@
 
 ### 🛠 I'm using...
 
-- Python (in 6 projects)
+- Python (in 5 projects)
 - TypeScript (in 3 projects)
 - Swift (in 2 projects)
+- Shell (in 1 project)
 
-<sub>Last updated: 24 December 2021</sub>
+<sub>Last updated: 29 December 2021</sub>
 
 ---
 
