@@ -29,7 +29,10 @@ jobs:
       - name: Check for changes
         run: |
           if git diff --exit-code; then
-            echo "CHANGES=$(git diff --exit-code)" >> $GITHUB_ENV
+            echo "CHANGES=true" >> $GITHUB_ENV
+          else
+            echo "CHANGES=false" >> $GITHUB_ENV
+          fi
       - name: Push changes
         if: ${{ env.CHANGES }}
         run: |
