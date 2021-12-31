@@ -11,7 +11,7 @@ logging.info(
 CONTENT = """
 ## 👋 Hello world, I'm Arash!
 
- I'm a student developer passionate about delivering simple, efficient, and easy-to-use creations of technology. While that one-liner is fairly ambiguous, it gives me a purpose and motivation to create interesting (and hopefully helpful!) stuff.
+ I'm a student developer ardent about creating designed, intuitive, and practical products using technology. While that one-liner is fairly ambiguous, it gives me a purpose and motivation to create interesting (and hopefully helpful!) stuff.
 
 ---
 
