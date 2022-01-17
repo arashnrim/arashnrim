@@ -28,6 +28,7 @@ jobs:
           echo ${{ secrets.PAT }} >> .env	
       - name: Run Python script
         run: |
+          cd update
           python main.py
       - name: Push changes
         run: |
