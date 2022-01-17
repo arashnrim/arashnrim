@@ -3,6 +3,10 @@ from datetime import datetime
 import logging
 import sys
 import requests
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 logging.basicConfig(level=logging.INFO, format="[%(levelname)s] %(message)s")
 logging.info(
@@ -33,26 +37,26 @@ else:
         for language in languages:
             cache[language[0]] = int(language[1])
 
-with open(".projectignore") as file:
-    ignored_projects = file.readline().split(",")
-logging.info("Read projects to ignore.")
-
 logging.info("Attempting to reach GitHub's API...")
-repos = requests.get(
-    "https://api.github.com/users/arashnrim/repos?sort=pushed")
+query = requests.get(
+    "https://api.github.com/search/repositories?q=user:arashnrim", headers={
+        "Authorization": "token {}".format(os.getenv("PAT"))
+    })
 count = {}
 
-if repos.status_code != 200:
+if query.status_code != 200:
     logging.critical(
         "Response from GitHub's API returned a non-OK (200) status code. Stopping process for safety.")
     sys.exit(-1)
 
-repos = json.loads(repos.text)
+query = json.loads(query.text)
 logging.info("Retrieved details of repositories from GitHub's API.")
+
+repos = [repo for repo in query["items"]]
 
 logging.info("Extracting languages...")
 for repo in repos:
-    if repo["name"] in ignored_projects:
+    if (repo["archived"] == True):
         continue
     if not repo["language"] is None:
         if repo["language"] in count.keys():

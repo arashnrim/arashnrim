@@ -6,3 +6,7 @@
 
 # configuration
 /.vscode/
+
+# environment variables
+**/.env
+**/.env.*
