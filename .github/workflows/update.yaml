@@ -25,7 +25,8 @@ jobs:
       - name: Retrieve environment variables
         run: |
           cd update
-          echo ${{ secrets.PAT }} >> .env	
+          touch .env
+          echo PAT=${{ secrets.PAT }} >> .env	
       - name: Run Python script
         run: |
           cd update
