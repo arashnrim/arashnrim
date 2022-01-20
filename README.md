@@ -7,15 +7,15 @@
 
 ### 🛠 I'm using...
 
-- Python (in 4 projects)
 - TypeScript (in 3 projects)
+- Python (in 3 projects)
+- JavaScript (in 3 projects)
 - Swift (in 2 projects)
-- JavaScript (in 2 projects)
 - CSS (in 1 project)
 - Shell (in 1 project)
 - Astro (in 1 project)
 
-<sub>Last updated: 18 January 2022</sub>
+<sub>Last updated: 20 January 2022</sub>
 
 ---
 
