@@ -7,13 +7,13 @@
 
 ### 🛠 I'm using...
 
-- TypeScript (in 3 projects)
+- TypeScript (in 4 projects)
 - Python (in 3 projects)
 - Swift (in 2 projects)
 - JavaScript (in 2 projects)
 - Shell (in 1 project)
 
-<sub>Last updated: 21 January 2022</sub>
+<sub>Last updated: 25 January 2022</sub>
 
 ---
 
