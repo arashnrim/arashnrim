@@ -2,8 +2,6 @@ name: Update languages
 
 on:
   push:
-    branches:
-      - main
   schedule:
     - cron: "0 0 * * *"
 
@@ -26,15 +24,23 @@ jobs:
         run: |
           cd update
           touch .env
-          echo PAT=${{ secrets.PAT }} >> .env	
+          echo PAT=${{ secrets.PAT }} >> .env
       - name: Run Python script
         run: |
           cd update
           python main.py
+      - name: Check for changes
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "changes_found=false" >> $GITHUB_ENV
+          else
+            echo "changes_found=true" >> $GITHUB_ENV
+          fi
       - name: Push changes
+        if: ${{ env.changes_found == "true" }}
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add .
-          git commit -a --allow-empty -m "Update projects"
+          git commit -a -m "Update projects"
           git push
