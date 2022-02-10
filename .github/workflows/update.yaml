@@ -37,18 +37,18 @@ jobs:
           else
             echo "changes_found=true" >> $GITHUB_ENV
           fi
-      - name: [Debug] Echo changes_found
+      - name: "[Debug] Echo changes_found"
         run: |
           echo ${{ env.changes_found }}
-      - name: [Debug] If-case 1
+      - name: "[Debug] If-case 1"
         if: ${{ env.changes_found }}
         run: |
           echo "If-case 1 passed"
-      - name: [Debug] If-case 2
+      - name: "[Debug] If-case 2"
         if: ${{ env.changes_found == "true" }}
         run: |
           echo "If-case 2 passed"
-      - name: [Debug] If-case 3
+      - name: "[Debug] If-case 3"
         if: ${{ env.changes_found == true }}
         run: |
           echo "If-case 3 passed"
