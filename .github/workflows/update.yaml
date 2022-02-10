@@ -45,10 +45,6 @@ jobs:
         run: |
           echo "If-case 1 passed"
       - name: "[Debug] If-case 2"
-        if: ${{ env.changes_found == "true" }}
-        run: |
-          echo "If-case 2 passed"
-      - name: "[Debug] If-case 3"
         if: ${{ env.changes_found == true }}
         run: |
-          echo "If-case 3 passed"
+          echo "If-case 2 passed"
