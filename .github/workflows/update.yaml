@@ -37,6 +37,7 @@ jobs:
           else
             echo "changes_found=true" >> $GITHUB_ENV
           fi
+          echo env.changes_found
       - name: Push changes
         if: env.changes_found
         run: |
