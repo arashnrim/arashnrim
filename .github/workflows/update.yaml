@@ -31,6 +31,7 @@ jobs:
           python main.py
       - name: Check for changes
         run: |
+          git status --porcelain
           if [ -z "$(git status --porcelain)" ]; then
             echo "changes_found=false" >> $GITHUB_ENV
           else
