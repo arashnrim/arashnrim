@@ -1,7 +1,9 @@
 
 ## 👋 Hello world, I'm Arash!
 
- I'm a student developer ardent about creating designed, intuitive, and practical products using technology. While that one-liner is fairly ambiguous, it gives me a purpose and motivation to create interesting (and hopefully helpful!) stuff.
+I'm a student developer ardent about creating <dfn title="in a way that is aesthetically pleasing">designed</dfn>, <dfn title="in a way that feels natural to a user">intuitive</dfn>, and <dfn title="in a way that serves some use">practical</dfn> products using technology. I find that to be a rather ambitious statement, and rightfully so; I have a long way to go before getting there, but every step towards it counts!
+
+I find joy in seeing the code I write come alive in one way or another — whether it's seeing it visually or just a command-line interface, most things I do are pretty interesting to me. I mostly deal with front-end web development at the moment, but would also like to have a go at any other parts of development.
 
 ---
 
@@ -13,7 +15,7 @@
 - Swift (in 2 projects)
 - Shell (in 1 project)
 
-<sub>Last updated: 07 February 2022</sub>
+<sub>Last updated: 10 February 2022</sub>
 
 ---
 
