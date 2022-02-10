@@ -32,10 +32,10 @@ jobs:
       - name: Check for changes
         run: |
           git status --porcelain
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "changes_found=false" >> $GITHUB_ENV
-          else
+          if [[ `git status --porcelain` ]]; then
             echo "changes_found=true" >> $GITHUB_ENV
+          else
+            echo "changes_found=false" >> $GITHUB_ENV
           fi
       - name: Push changes
         if: ${{ env.changes_found == true }}
