@@ -20,4 +20,6 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 
 ---
 
-Feel free to <a href="mailto:hello@arashnrim.me" target="_blank" rel="noreferrer">be in contact</a> — after all, everyone's learning together! Thanks for stopping by, and go create awesome things!
+I'm slowly trying to grow out of my comfort zone from time to time, and one way I do so is by reaching out to people I find inspiring. I'll also be glad to hear from you if you'd like to turn the tables and <a href="mailto:hello@arashnrim.me" target="_blank" rel="noreferrer">say hi</a> instead!
+
+We're all learners in one way or another, and I hope your stop here has been helpful. Thank you for stopping by; go on and create awesome things!
