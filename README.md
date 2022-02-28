@@ -10,13 +10,13 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 ### 🛠 I'm using...
 
 - TypeScript (in 4 projects)
+- JavaScript (in 4 projects)
 - Python (in 3 projects)
-- JavaScript (in 3 projects)
 - Swift (in 2 projects)
 - Go (in 1 project)
-- Shell (in 1 project)
+- CSS (in 1 project)
 
-<sub>Last updated: 12 February 2022</sub>
+<sub>Last updated: 28 February 2022</sub>
 
 ---
 
