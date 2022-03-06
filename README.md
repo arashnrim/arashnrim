@@ -14,9 +14,10 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 - Python (in 3 projects)
 - Swift (in 2 projects)
 - Go (in 1 project)
+- Ruby (in 1 project)
 - CSS (in 1 project)
 
-<sub>Last updated: 28 February 2022</sub>
+<sub>Last updated: 06 March 2022</sub>
 
 ---
 
