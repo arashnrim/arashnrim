@@ -16,8 +16,9 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 - Go (in 1 project)
 - Shell (in 1 project)
 - Ruby (in 1 project)
+- HTML (in 1 project)
 
-<sub>Last updated: 08 April 2022</sub>
+<sub>Last updated: 14 April 2022</sub>
 
 ---
 
