@@ -13,13 +13,13 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 - Python (in 4 projects)
 - JavaScript (in 3 projects)
 - Swift (in 2 projects)
+- HTML (in 2 projects)
 - Go (in 1 project)
 - Shell (in 1 project)
 - Vue (in 1 project)
 - Ruby (in 1 project)
-- HTML (in 1 project)
 
-<sub>Last updated: 09 August 2022</sub>
+<sub>Last updated: 19 August 2022</sub>
 
 ---
 
