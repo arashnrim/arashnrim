@@ -15,12 +15,11 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 - Swift (in 2 projects)
 - Go (in 1 project)
 - Shell (in 1 project)
-- Astro (in 1 project)
 - Vue (in 1 project)
 - Ruby (in 1 project)
 - HTML (in 1 project)
 
-<sub>Last updated: 13 September 2022</sub>
+<sub>Last updated: 18 September 2022</sub>
 
 ---
 
