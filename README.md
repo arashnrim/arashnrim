@@ -9,7 +9,7 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 
 ### 🛠 I'm using...
 
-- TypeScript (in 6 projects)
+- TypeScript (in 7 projects)
 - Python (in 5 projects)
 - JavaScript (in 4 projects)
 - Swift (in 2 projects)
@@ -19,7 +19,7 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 - Ruby (in 1 project)
 - HTML (in 1 project)
 
-<sub>Last updated: 18 September 2022</sub>
+<sub>Last updated: 21 September 2022</sub>
 
 ---
 
