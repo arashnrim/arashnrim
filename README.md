@@ -18,8 +18,9 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 - Vue (in 1 project)
 - Ruby (in 1 project)
 - HTML (in 1 project)
+- C# (in 1 project)
 
-<sub>Last updated: 21 September 2022</sub>
+<sub>Last updated: 28 September 2022</sub>
 
 ---
 
