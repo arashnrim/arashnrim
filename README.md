@@ -20,9 +20,10 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 - Vue (in 1 project)
 - Ruby (in 1 project)
 - SCSS (in 1 project)
+- CSS (in 1 project)
 - HTML (in 1 project)
 
-<sub>Last updated: 06 November 2022</sub>
+<sub>Last updated: 12 November 2022</sub>
 
 ---
 
