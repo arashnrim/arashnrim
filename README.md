@@ -10,19 +10,19 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 ### 🛠 I'm using...
 
 - Python (in 6 projects)
-- TypeScript (in 5 projects)
+- TypeScript (in 4 projects)
 - JavaScript (in 3 projects)
 - Swift (in 2 projects)
-- HTML (in 2 projects)
+- C# (in 2 projects)
 - Go (in 1 project)
-- C# (in 1 project)
 - Shell (in 1 project)
+- HTML (in 1 project)
 - Svelte (in 1 project)
 - Vue (in 1 project)
 - Ruby (in 1 project)
 - SCSS (in 1 project)
 
-<sub>Last updated: 04 December 2022</sub>
+<sub>Last updated: 18 January 2023</sub>
 
 ---
 
