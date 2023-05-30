@@ -18,10 +18,11 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 - HTML (in 1 project)
 - Astro (in 1 project)
 - Vue (in 1 project)
+- Java (in 1 project)
 - Ruby (in 1 project)
 - SCSS (in 1 project)
 
-<sub>Last updated: 29 March 2023</sub>
+<sub>Last updated: 30 May 2023</sub>
 
 ---
 
