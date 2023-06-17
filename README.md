@@ -11,7 +11,7 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 
 - Python (in 5 projects)
 - TypeScript (in 4 projects)
-- JavaScript (in 4 projects)
+- JavaScript (in 3 projects)
 - Swift (in 2 projects)
 - C# (in 2 projects)
 - Go (in 1 project)
@@ -22,7 +22,7 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 - Ruby (in 1 project)
 - SCSS (in 1 project)
 
-<sub>Last updated: 30 May 2023</sub>
+<sub>Last updated: 17 June 2023</sub>
 
 ---
 
