@@ -5,6 +5,7 @@ import sys
 import requests
 from dotenv import load_dotenv
 import os
+import re
 
 load_dotenv()
 
@@ -55,6 +56,29 @@ query = json.loads(query.text)
 logging.info("Retrieved details of repositories from GitHub's API.")
 
 repos = [repo for repo in query["items"]]
+
+# Reads in extra projects specified in `.projectextras`
+logging.info("Attempting to read in extra projects...")
+with open(".projectextras", encoding="utf-8") as file:
+    for line in file.readlines():
+        line = line.strip()
+
+        # Check if the line matches the format `<owner>/<repo>` then extracts owner and repo if so
+        if not re.match(r"^[-\w_.]+\/[-\w_.]+$", line):
+            logging.warning(
+                f"Invalid format for extra project: {line}. Skipping...")
+            continue
+
+        query = requests.get(
+            f"https://api.github.com/repos/{line}", timeout=10, headers={
+                "Authorization": f"token {os.getenv('PAT')}"
+            })
+        if query.status_code != 200:
+            logging.warning(
+                f"Response from GitHub's API returned a non-OK (200) status code for {line.strip()}. Skipping...")
+            continue
+
+        repos.append(json.loads(query.text))
 
 logging.info("Extracting languages...")
 for repo in repos:
