@@ -28,12 +28,12 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 cache = {}
 
 try:
-    open(".cache")
+    open(".cache", encoding="utf-8")
 except FileNotFoundError:
     logging.info("No cache found. Proceeding...")
 else:
     logging.info("Found cache. Proceeding...")
-    with open(".cache") as file:
+    with open(".cache", encoding="utf-8") as file:
         languages = [language.strip().split(",")
                      for language in file.readlines()]
         for language in languages:
@@ -41,8 +41,8 @@ else:
 
 logging.info("Attempting to reach GitHub's API...")
 query = requests.get(
-    "https://api.github.com/search/repositories?q=user:arashnrim", headers={
-        "Authorization": "token {}".format(os.getenv("PAT"))
+    "https://api.github.com/search/repositories?q=user:arashnrim", timeout=10, headers={
+        "Authorization": f"token {os.getenv('PAT')}"
     })
 count = {}
 
@@ -58,10 +58,10 @@ repos = [repo for repo in query["items"]]
 
 logging.info("Extracting languages...")
 for repo in repos:
-    if (repo["archived"] == True):
+    if repo["archived"]:
         continue
     if not repo["language"] is None:
-        if repo["language"] in count.keys():
+        if repo["language"] in count:
             count[repo["language"]] += 1
             continue
         else:
@@ -77,27 +77,26 @@ count = sorted(count.items(), key=lambda language: language[1], reverse=True)
 
 logging.info("Appending languages...")
 for language in count:
-    CONTENT += "- {} (in {} project{})\n".format(language[0],
-                                                 language[1], "s" if language[1] != 1 else "")
+    CONTENT += f"- {language[0]} (in {language[1]} project{'s' if language[1] != 1 else ''})\n"
 
 logging.info("Logging to cache...")
-with open(".cache", "w") as file:
+with open(".cache", "w", encoding="utf-8") as file:
     for language in count:
-        file.write("{},{}\n".format(language[0], language[1]))
+        file.write(f"{language[0]},{language[1]}\n")
 
 logging.info("Appending end chunk...")
-CONTENT += """
-<sub>Last updated: {}</sub>
+CONTENT += f"""
+<sub>Last updated: {datetime.today().strftime("%d %B %Y")} — <a href="https://github.com/arashnrim/arashnrim">curious about this?</a></sub>
 
 ---
 
 I'm slowly trying to grow out of my comfort zone from time to time, and one way I do so is by reaching out to people I find inspiring. I'll also be glad to hear from you if you'd like to turn the tables and <a href="mailto:hello@arashnrim.me" target="_blank" rel="noreferrer">say hi</a> instead!
 
 We're all learners in one way or another, and I hope your stop here has been helpful. Thank you for stopping by; go on and create awesome things!
-""".format(datetime.today().strftime("%d %B %Y"))
+"""
 
 logging.info("Writing to file...")
-with open("../README.md", "w") as file:
+with open("../README.md", "w", encoding="utf-8") as file:
     file.write(CONTENT)
 
 logging.info("The program has completed successfully.")
