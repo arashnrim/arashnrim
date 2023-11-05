@@ -110,7 +110,7 @@ with open(".cache", "w", encoding="utf-8") as file:
 
 logging.info("Appending end chunk...")
 CONTENT += f"""
-<sub>Last updated: {datetime.today().strftime("%d %B %Y")} — <a href="https://github.com/arashnrim/arashnrim">curious about this?</a></sub>
+<sub>Last updated: {datetime.today().strftime("%d %B %Y")} — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
