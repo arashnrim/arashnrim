@@ -9,8 +9,8 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 
 ### 🛠 I'm using...
 
+- Python (in 9 projects)
 - JavaScript (in 8 projects)
-- Python (in 8 projects)
 - HTML (in 4 projects)
 - TypeScript (in 3 projects)
 - C# (in 3 projects)
@@ -21,10 +21,9 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 - Astro (in 1 project)
 - Vue (in 1 project)
 - Ruby (in 1 project)
-- SCSS (in 1 project)
 - Jupyter Notebook (in 1 project)
 
-<sub>Last updated: 09 January 2024 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
+<sub>Last updated: 09 February 2024 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
