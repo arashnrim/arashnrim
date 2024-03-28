@@ -21,10 +21,9 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 - Shell (in 1 project)
 - Astro (in 1 project)
 - Vue (in 1 project)
-- Ruby (in 1 project)
 - Jupyter Notebook (in 1 project)
 
-<sub>Last updated: 12 February 2024 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
+<sub>Last updated: 28 March 2024 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
