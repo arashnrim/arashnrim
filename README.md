@@ -13,17 +13,18 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 - JavaScript (in 8 projects)
 - HTML (in 4 projects)
 - C# (in 3 projects)
-- TypeScript (in 2 projects)
 - Swift (in 2 projects)
 - Java (in 2 projects)
 - MDX (in 1 project)
 - Go (in 1 project)
+- TypeScript (in 1 project)
 - Shell (in 1 project)
 - Astro (in 1 project)
 - Vue (in 1 project)
+- Objective-C (in 1 project)
 - Jupyter Notebook (in 1 project)
 
-<sub>Last updated: 28 March 2024 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
+<sub>Last updated: 09 April 2024 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
