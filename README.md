@@ -22,8 +22,9 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 - Shell (in 1 project)
 - Astro (in 1 project)
 - Vue (in 1 project)
+- Kotlin (in 1 project)
 
-<sub>Last updated: 26 May 2024 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
+<sub>Last updated: 29 July 2024 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
