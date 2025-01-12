@@ -62,6 +62,7 @@ repos = [repo for repo in query["items"]]
 # Reads in extra projects specified in `.projectextras`
 logging.info("Attempting to read in extra projects...")
 with open(".projectextras", encoding="utf-8") as file:
+    read_count = 0
     for line in file.readlines():
         line = line.strip()
 
@@ -71,20 +72,49 @@ with open(".projectextras", encoding="utf-8") as file:
                 f"Invalid format for extra project: {line}. Skipping...")
             continue
 
+        read_count += 1
+
         query = requests.get(
             f"https://api.github.com/repos/{line}", timeout=10, headers={
                 "Authorization": f"token {os.getenv('PAT')}"
             })
         if query.status_code != 200:
             logging.warning(
-                f"Response from GitHub's API returned a non-OK (200) status code for {line.strip()}. Skipping...")
+                f"Response from GitHub's API returned a non-OK ({query.status_code}) status code for {line.strip()}. Skipping...")
+            read_count -= 1
             continue
 
         repos.append(json.loads(query.text))
 
-logging.info("Extracting languages...")
+    logging.info(f"Read {read_count} extra project{
+        "" if read_count == 1 else "s"}.")
+
+# Reads in ignored projects specified in `.projectignore`
+logging.info("Attempting to read in ignored projects...")
+ignored = []
+with open(".projectignore", encoding="utf-8") as file:
+    read_count = 0
+    for line in file.readlines():
+        line = line.strip()
+
+        read_count += 1
+
+        # Check if the line matches the format `<owner>/<repo>`
+        if not re.match(r"^[-\w_.]+\/[-\w_.]+$", line):
+            logging.warning(
+                f"Invalid format for ignored project: {line}. Skipping...")
+            read_count -= 1
+            continue
+
+        ignored.append(line)
+
+    logging.info(f"Read {read_count} ignored project{
+        "" if read_count == 1 else 's'}.")
+
+logging.info(f"Extracting languages from {
+             len(repos)} repositories (including archived and {len(ignored)} ignored)...")
 for repo in repos:
-    if repo["archived"]:
+    if repo["archived"] or repo["full_name"] in ignored:
         continue
     if not repo["language"] is None:
         if repo["language"] in count:
@@ -105,18 +135,15 @@ logging.info("Appending languages...")
 
 CONTENT += "<table style=\"width: 100%\">\n"
 
-row_count = 0
 space_tab = " " * 4
 for language in count:
-    if row_count == 0:
-        CONTENT += f"{space_tab}<tr>\n"
-    CONTENT += f"{space_tab}{space_tab}<th>{language[0]}</th>\n{space_tab}{space_tab}<td>{
-        language[1]} project{"" if language[1] == 1 else "s"}</td>\n"
+    CONTENT += f"{space_tab}<tr>\n"
+    CONTENT += f"{space_tab *
+                  2}<th scope=\"row\" style=\"text-align: right\">{language[0]}</th>\n"
+    CONTENT += f"{space_tab * 2}<td>{language[1]} project{
+        "" if language[1] == 1 else "s"}</td>\n"
 
-    row_count += 1
-    if row_count == 3:
-        CONTENT += f"{space_tab}</tr>\n"
-        row_count = 0
+    CONTENT += f"{space_tab}</tr>\n"
 
 CONTENT += "</table>\n"
 
