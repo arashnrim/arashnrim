@@ -1,4 +1,6 @@
 
+![](docs/banner.png)
+
 ## 👋 Hello world, I'm Arash!
 
 I'm a student developer ardent about creating <dfn title="in a way that is aesthetically pleasing">designed</dfn>, <dfn title="in a way that feels natural to a user">intuitive</dfn>, and <dfn title="in a way that serves some use">practical</dfn> products using technology. I find that to be a rather ambitious statement, and rightfully so; I have a long way to go before getting there, but every step towards it counts!
@@ -9,21 +11,45 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 
 ### 🛠 I'm using...
 
-- JavaScript (in 8 projects)
-- Python (in 8 projects)
-- HTML (in 4 projects)
-- Swift (in 3 projects)
-- MDX (in 2 projects)
-- C# (in 2 projects)
-- Jupyter Notebook (in 2 projects)
-- Java (in 2 projects)
-- Go (in 1 project)
-- TypeScript (in 1 project)
-- Shell (in 1 project)
-- Astro (in 1 project)
-- Kotlin (in 1 project)
+<table style="width: 100%">
+    <tr>
+        <th>JavaScript</th>
+        <td>8 projects</td>
+        <th>Python</th>
+        <td>8 projects</td>
+        <th>HTML</th>
+        <td>4 projects</td>
+    </tr>
+    <tr>
+        <th>Swift</th>
+        <td>3 projects</td>
+        <th>MDX</th>
+        <td>2 projects</td>
+        <th>C#</th>
+        <td>2 projects</td>
+    </tr>
+    <tr>
+        <th>Jupyter Notebook</th>
+        <td>2 projects</td>
+        <th>Java</th>
+        <td>2 projects</td>
+        <th>Go</th>
+        <td>1 project</td>
+    </tr>
+    <tr>
+        <th>TypeScript</th>
+        <td>1 project</td>
+        <th>Shell</th>
+        <td>1 project</td>
+        <th>Astro</th>
+        <td>1 project</td>
+    </tr>
+    <tr>
+        <th>Kotlin</th>
+        <td>1 project</td>
+</table>
 
-<sub>Last updated: 21 October 2024 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
+<sub>Last updated: 12 January 2025 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
