@@ -14,6 +14,8 @@ logging.info(
     "Attempting to update languages in the root README.md file. Initiating...")
 
 CONTENT = """
+![](docs/banner.png)
+
 ## 👋 Hello world, I'm Arash!
 
 I'm a student developer ardent about creating <dfn title="in a way that is aesthetically pleasing">designed</dfn>, <dfn title="in a way that feels natural to a user">intuitive</dfn>, and <dfn title="in a way that serves some use">practical</dfn> products using technology. I find that to be a rather ambitious statement, and rightfully so; I have a long way to go before getting there, but every step towards it counts!
@@ -100,8 +102,23 @@ logging.info("Sorting languages...")
 count = sorted(count.items(), key=lambda language: language[1], reverse=True)
 
 logging.info("Appending languages...")
+
+CONTENT += "<table style=\"width: 100%\">\n"
+
+row_count = 0
+space_tab = " " * 4
 for language in count:
-    CONTENT += f"- {language[0]} (in {language[1]} project{'s' if language[1] != 1 else ''})\n"
+    if row_count == 0:
+        CONTENT += f"{space_tab}<tr>\n"
+    CONTENT += f"{space_tab}{space_tab}<th>{language[0]}</th>\n{space_tab}{space_tab}<td>{
+        language[1]} project{"" if language[1] == 1 else "s"}</td>\n"
+
+    row_count += 1
+    if row_count == 3:
+        CONTENT += f"{space_tab}</tr>\n"
+        row_count = 0
+
+CONTENT += "</table>\n"
 
 logging.info("Logging to cache...")
 with open(".cache", "w", encoding="utf-8") as file:
