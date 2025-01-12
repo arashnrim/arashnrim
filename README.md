@@ -13,40 +13,49 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 
 <table style="width: 100%">
     <tr>
-        <th>JavaScript</th>
+        <th scope="row" style="text-align: right">JavaScript</th>
         <td>8 projects</td>
-        <th>Python</th>
-        <td>8 projects</td>
-        <th>HTML</th>
-        <td>4 projects</td>
     </tr>
     <tr>
-        <th>Swift</th>
+        <th scope="row" style="text-align: right">Python</th>
+        <td>8 projects</td>
+    </tr>
+    <tr>
+        <th scope="row" style="text-align: right">Swift</th>
         <td>3 projects</td>
-        <th>MDX</th>
-        <td>2 projects</td>
-        <th>C#</th>
+    </tr>
+    <tr>
+        <th scope="row" style="text-align: right">HTML</th>
+        <td>3 projects</td>
+    </tr>
+    <tr>
+        <th scope="row" style="text-align: right">C#</th>
         <td>2 projects</td>
     </tr>
     <tr>
-        <th>Jupyter Notebook</th>
+        <th scope="row" style="text-align: right">Jupyter Notebook</th>
         <td>2 projects</td>
-        <th>Java</th>
+    </tr>
+    <tr>
+        <th scope="row" style="text-align: right">Java</th>
         <td>2 projects</td>
-        <th>Go</th>
+    </tr>
+    <tr>
+        <th scope="row" style="text-align: right">Go</th>
         <td>1 project</td>
     </tr>
     <tr>
-        <th>TypeScript</th>
-        <td>1 project</td>
-        <th>Shell</th>
-        <td>1 project</td>
-        <th>Astro</th>
+        <th scope="row" style="text-align: right">Astro</th>
         <td>1 project</td>
     </tr>
     <tr>
-        <th>Kotlin</th>
+        <th scope="row" style="text-align: right">MDX</th>
         <td>1 project</td>
+    </tr>
+    <tr>
+        <th scope="row" style="text-align: right">Kotlin</th>
+        <td>1 project</td>
+    </tr>
 </table>
 
 <sub>Last updated: 12 January 2025 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
