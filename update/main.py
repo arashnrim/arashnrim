@@ -158,7 +158,7 @@ CONTENT += f"""
 
 ---
 
-I'm slowly trying to grow out of my comfort zone from time to time, and one way I do so is by reaching out to people I find inspiring. I'll also be glad to hear from you if you'd like to turn the tables and <a href="mailto:hello@arashnrim.me" target="_blank" rel="noreferrer">say hi</a> instead!
+I'm slowly trying to grow out of my comfort zone from time to time, and one way I do so is by reaching out to people I find inspiring. I'll also be glad to hear from you if you'd like to turn the tables and <a href="https://arash.codes/#connect" target="_blank" rel="noreferrer">say hi</a> instead!
 
 We're all learners in one way or another, and I hope your stop here has been helpful. Thank you for stopping by; go on and create awesome things!
 """
