@@ -14,11 +14,11 @@ logging.info(
     "Attempting to update languages in the root README.md file. Initiating...")
 
 CONTENT = """
-![](docs/banner.png)
+![A gallery of different pictures of people placed next to each other. In the foreground, a text that includes "Hey! I'm Arash. I'm driven to use tech in crafting intuitive, purposeful, and well-designed things that work for people."](docs/banner.webp)
 
 ## 👋 Hello world, I'm Arash!
 
-I'm a student developer ardent about creating <dfn title="in a way that is aesthetically pleasing">designed</dfn>, <dfn title="in a way that feels natural to a user">intuitive</dfn>, and <dfn title="in a way that serves some use">practical</dfn> products using technology. I find that to be a rather ambitious statement, and rightfully so; I have a long way to go before getting there, but every step towards it counts!
+I'm a student + developer driven to use <dfn title="whether software, hardware, or anything in between">tech</dfn> in crafting <dfn title="in a way that feels natural">intuitive</dfn>, <dfn title="in a way that adds meaningful value">purposeful</dfn>, and <dfn title="in a way that is aesthetically pleasing and usable">well-designed</dfn> things that work for people. I find that to be a rather ambitious statement, and rightfully so; I have a long way to go before getting there, but every step towards it counts!
 
 I find joy in seeing the code I write come alive in one way or another — whether it's seeing it visually or just a command-line interface, most things I do are pretty interesting to me. I mostly deal with front-end web development at the moment, but would also like to have a go at any other parts of development.
 
