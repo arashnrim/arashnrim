@@ -56,13 +56,9 @@ I find joy in seeing the code I write come alive in one way or another — wheth
         <th scope="row" style="text-align: right">MDX</th>
         <td>1 project</td>
     </tr>
-    <tr>
-        <th scope="row" style="text-align: right">Kotlin</th>
-        <td>1 project</td>
-    </tr>
 </table>
 
-<sub>Last updated: 10 March 2025 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
+<sub>Last updated: 21 April 2025 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
