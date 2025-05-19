@@ -13,27 +13,27 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 
 <table style="width: 100%">
     <tr>
-        <th scope="row" style="text-align: right">JavaScript</th>
-        <td>8 projects</td>
-    </tr>
-    <tr>
         <th scope="row" style="text-align: right">Python</th>
         <td>8 projects</td>
     </tr>
     <tr>
-        <th scope="row" style="text-align: right">Swift</th>
-        <td>3 projects</td>
+        <th scope="row" style="text-align: right">JavaScript</th>
+        <td>7 projects</td>
     </tr>
     <tr>
         <th scope="row" style="text-align: right">HTML</th>
         <td>3 projects</td>
     </tr>
     <tr>
-        <th scope="row" style="text-align: right">C#</th>
+        <th scope="row" style="text-align: right">TypeScript</th>
+        <td>3 projects</td>
+    </tr>
+    <tr>
+        <th scope="row" style="text-align: right">Swift</th>
         <td>2 projects</td>
     </tr>
     <tr>
-        <th scope="row" style="text-align: right">Jupyter Notebook</th>
+        <th scope="row" style="text-align: right">C#</th>
         <td>2 projects</td>
     </tr>
     <tr>
@@ -49,16 +49,24 @@ I find joy in seeing the code I write come alive in one way or another — wheth
         <td>1 project</td>
     </tr>
     <tr>
-        <th scope="row" style="text-align: right">TypeScript</th>
+        <th scope="row" style="text-align: right">Vue</th>
         <td>1 project</td>
     </tr>
     <tr>
-        <th scope="row" style="text-align: right">MDX</th>
+        <th scope="row" style="text-align: right">Objective-C</th>
+        <td>1 project</td>
+    </tr>
+    <tr>
+        <th scope="row" style="text-align: right">Ruby</th>
+        <td>1 project</td>
+    </tr>
+    <tr>
+        <th scope="row" style="text-align: right">Jupyter Notebook</th>
         <td>1 project</td>
     </tr>
 </table>
 
-<sub>Last updated: 21 April 2025 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
+<sub>Last updated: 19 May 2025 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
