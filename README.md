@@ -18,7 +18,7 @@ I find joy in seeing the code I write come alive in one way or another — wheth
     </tr>
     <tr>
         <th scope="row" style="text-align: right">JavaScript</th>
-        <td>7 projects</td>
+        <td>6 projects</td>
     </tr>
     <tr>
         <th scope="row" style="text-align: right">HTML</th>
@@ -57,6 +57,10 @@ I find joy in seeing the code I write come alive in one way or another — wheth
         <td>1 project</td>
     </tr>
     <tr>
+        <th scope="row" style="text-align: right">Logos</th>
+        <td>1 project</td>
+    </tr>
+    <tr>
         <th scope="row" style="text-align: right">Ruby</th>
         <td>1 project</td>
     </tr>
@@ -66,7 +70,7 @@ I find joy in seeing the code I write come alive in one way or another — wheth
     </tr>
 </table>
 
-<sub>Last updated: 19 May 2025 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
+<sub>Last updated: 18 August 2025 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
