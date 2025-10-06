@@ -13,19 +13,19 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 
 <table style="width: 100%">
     <tr>
-        <th scope="row" style="text-align: right">Python</th>
-        <td>8 projects</td>
-    </tr>
-    <tr>
         <th scope="row" style="text-align: right">JavaScript</th>
-        <td>7 projects</td>
+        <td>6 projects</td>
     </tr>
     <tr>
-        <th scope="row" style="text-align: right">HTML</th>
-        <td>3 projects</td>
+        <th scope="row" style="text-align: right">Python</th>
+        <td>6 projects</td>
     </tr>
     <tr>
         <th scope="row" style="text-align: right">TypeScript</th>
+        <td>4 projects</td>
+    </tr>
+    <tr>
+        <th scope="row" style="text-align: right">HTML</th>
         <td>3 projects</td>
     </tr>
     <tr>
@@ -46,6 +46,10 @@ I find joy in seeing the code I write come alive in one way or another — wheth
     </tr>
     <tr>
         <th scope="row" style="text-align: right">Astro</th>
+        <td>1 project</td>
+    </tr>
+    <tr>
+        <th scope="row" style="text-align: right">MDX</th>
         <td>1 project</td>
     </tr>
     <tr>
@@ -70,7 +74,7 @@ I find joy in seeing the code I write come alive in one way or another — wheth
     </tr>
 </table>
 
-<sub>Last updated: 15 September 2025 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
+<sub>Last updated: 06 October 2025 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
