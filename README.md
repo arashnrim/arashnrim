@@ -57,6 +57,10 @@ I find joy in seeing the code I write come alive in one way or another — wheth
         <td>1 project</td>
     </tr>
     <tr>
+        <th scope="row" style="text-align: right">Shell</th>
+        <td>1 project</td>
+    </tr>
+    <tr>
         <th scope="row" style="text-align: right">Objective-C</th>
         <td>1 project</td>
     </tr>
@@ -74,7 +78,7 @@ I find joy in seeing the code I write come alive in one way or another — wheth
     </tr>
 </table>
 
-<sub>Last updated: 06 October 2025 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
+<sub>Last updated: 29 December 2025 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
