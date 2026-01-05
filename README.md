@@ -18,15 +18,11 @@ I find joy in seeing the code I write come alive in one way or another — wheth
     </tr>
     <tr>
         <th scope="row" style="text-align: right">Python</th>
-        <td>6 projects</td>
+        <td>5 projects</td>
     </tr>
     <tr>
         <th scope="row" style="text-align: right">TypeScript</th>
         <td>4 projects</td>
-    </tr>
-    <tr>
-        <th scope="row" style="text-align: right">HTML</th>
-        <td>3 projects</td>
     </tr>
     <tr>
         <th scope="row" style="text-align: right">Swift</th>
@@ -37,15 +33,15 @@ I find joy in seeing the code I write come alive in one way or another — wheth
         <td>2 projects</td>
     </tr>
     <tr>
-        <th scope="row" style="text-align: right">Java</th>
-        <td>2 projects</td>
-    </tr>
-    <tr>
         <th scope="row" style="text-align: right">Go</th>
         <td>1 project</td>
     </tr>
     <tr>
         <th scope="row" style="text-align: right">Astro</th>
+        <td>1 project</td>
+    </tr>
+    <tr>
+        <th scope="row" style="text-align: right">HTML</th>
         <td>1 project</td>
     </tr>
     <tr>
@@ -72,13 +68,9 @@ I find joy in seeing the code I write come alive in one way or another — wheth
         <th scope="row" style="text-align: right">Ruby</th>
         <td>1 project</td>
     </tr>
-    <tr>
-        <th scope="row" style="text-align: right">Jupyter Notebook</th>
-        <td>1 project</td>
-    </tr>
 </table>
 
-<sub>Last updated: 29 December 2025 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
+<sub>Last updated: 05 January 2026 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
