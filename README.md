@@ -18,7 +18,7 @@ I find joy in seeing the code I write come alive in one way or another — wheth
     </tr>
     <tr>
         <th scope="row" style="text-align: right">Python</th>
-        <td>5 projects</td>
+        <td>6 projects</td>
     </tr>
     <tr>
         <th scope="row" style="text-align: right">TypeScript</th>
@@ -61,16 +61,12 @@ I find joy in seeing the code I write come alive in one way or another — wheth
         <td>1 project</td>
     </tr>
     <tr>
-        <th scope="row" style="text-align: right">Logos</th>
-        <td>1 project</td>
-    </tr>
-    <tr>
         <th scope="row" style="text-align: right">Ruby</th>
         <td>1 project</td>
     </tr>
 </table>
 
-<sub>Last updated: 05 January 2026 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
+<sub>Last updated: 09 March 2026 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
