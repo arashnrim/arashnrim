@@ -13,11 +13,11 @@ I find joy in seeing the code I write come alive in one way or another — wheth
 
 <table style="width: 100%">
     <tr>
-        <th scope="row" style="text-align: right">JavaScript</th>
-        <td>6 projects</td>
+        <th scope="row" style="text-align: right">Python</th>
+        <td>7 projects</td>
     </tr>
     <tr>
-        <th scope="row" style="text-align: right">Python</th>
+        <th scope="row" style="text-align: right">JavaScript</th>
         <td>6 projects</td>
     </tr>
     <tr>
@@ -66,7 +66,7 @@ I find joy in seeing the code I write come alive in one way or another — wheth
     </tr>
 </table>
 
-<sub>Last updated: 09 March 2026 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
+<sub>Last updated: 16 March 2026 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
