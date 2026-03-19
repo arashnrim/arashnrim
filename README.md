@@ -12,7 +12,7 @@ This space is where I explore with code. I find joy in seeing the code I write c
 <table style="width: 100%">
     <tr>
         <th scope="row" style="text-align: right">Python</th>
-        <td>8 projects</td>
+        <td>7 projects</td>
     </tr>
     <tr>
         <th scope="row" style="text-align: right">JavaScript</th>
@@ -23,10 +23,6 @@ This space is where I explore with code. I find joy in seeing the code I write c
         <td>4 projects</td>
     </tr>
     <tr>
-        <th scope="row" style="text-align: right">HTML</th>
-        <td>3 projects</td>
-    </tr>
-    <tr>
         <th scope="row" style="text-align: right">Swift</th>
         <td>2 projects</td>
     </tr>
@@ -35,15 +31,15 @@ This space is where I explore with code. I find joy in seeing the code I write c
         <td>2 projects</td>
     </tr>
     <tr>
-        <th scope="row" style="text-align: right">Java</th>
-        <td>2 projects</td>
-    </tr>
-    <tr>
         <th scope="row" style="text-align: right">Go</th>
         <td>1 project</td>
     </tr>
     <tr>
         <th scope="row" style="text-align: right">Astro</th>
+        <td>1 project</td>
+    </tr>
+    <tr>
+        <th scope="row" style="text-align: right">HTML</th>
         <td>1 project</td>
     </tr>
     <tr>
@@ -64,10 +60,6 @@ This space is where I explore with code. I find joy in seeing the code I write c
     </tr>
     <tr>
         <th scope="row" style="text-align: right">Ruby</th>
-        <td>1 project</td>
-    </tr>
-    <tr>
-        <th scope="row" style="text-align: right">Jupyter Notebook</th>
         <td>1 project</td>
     </tr>
 </table>
