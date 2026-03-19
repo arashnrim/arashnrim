@@ -3,18 +3,16 @@
 
 ## 👋 Hello world, I'm Arash!
 
-I'm a student + developer driven to craft <dfn title="in a way that feels natural">intuitive</dfn>, <dfn title="in a way that adds meaningful value">purposeful</dfn>, and <dfn title="in a way that is aesthetically pleasing and usable">well-designed</dfn> things with <dfn title="whether software, hardware, or anything in between">tech</dfn> that works for people. I find that to be a rather ambitious statement, and rightfully so; I have a long way to go before getting there, but every step towards it counts!
-
-I find joy in seeing the code I write come alive in one way or another — whether it's seeing it visually or just a command-line interface, most things I do are pretty interesting to me. I mostly deal with front-end web development at the moment, but would also like to have a go at any other parts of development.
+This space is where I explore with code. I find joy in seeing the code I write come to life, whether it's a web project or a command-line interface. I like to think that [learning in public](https://garden.arash.codes/social/learning-in-public) is the best way I learn, so watch this space as I pick up (and occassionally break) things as I go!
 
 ---
 
-### 🛠 I'm using...
+### 🛠 What I've been using...
 
 <table style="width: 100%">
     <tr>
         <th scope="row" style="text-align: right">Python</th>
-        <td>7 projects</td>
+        <td>8 projects</td>
     </tr>
     <tr>
         <th scope="row" style="text-align: right">JavaScript</th>
@@ -25,6 +23,10 @@ I find joy in seeing the code I write come alive in one way or another — wheth
         <td>4 projects</td>
     </tr>
     <tr>
+        <th scope="row" style="text-align: right">HTML</th>
+        <td>3 projects</td>
+    </tr>
+    <tr>
         <th scope="row" style="text-align: right">Swift</th>
         <td>2 projects</td>
     </tr>
@@ -33,15 +35,15 @@ I find joy in seeing the code I write come alive in one way or another — wheth
         <td>2 projects</td>
     </tr>
     <tr>
+        <th scope="row" style="text-align: right">Java</th>
+        <td>2 projects</td>
+    </tr>
+    <tr>
         <th scope="row" style="text-align: right">Go</th>
         <td>1 project</td>
     </tr>
     <tr>
         <th scope="row" style="text-align: right">Astro</th>
-        <td>1 project</td>
-    </tr>
-    <tr>
-        <th scope="row" style="text-align: right">HTML</th>
         <td>1 project</td>
     </tr>
     <tr>
@@ -64,12 +66,16 @@ I find joy in seeing the code I write come alive in one way or another — wheth
         <th scope="row" style="text-align: right">Ruby</th>
         <td>1 project</td>
     </tr>
+    <tr>
+        <th scope="row" style="text-align: right">Jupyter Notebook</th>
+        <td>1 project</td>
+    </tr>
 </table>
 
-<sub>Last updated: 16 March 2026 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
+<sub>Last updated: 19 March 2026 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
-I'm slowly trying to grow out of my comfort zone from time to time, and one way I do so is by reaching out to people I find inspiring. I'll also be glad to hear from you if you'd like to turn the tables and <a href="https://arash.codes/#connect" target="_blank" rel="noreferrer">say hi</a> instead!
+If you're curious to learn more about me, feel free to [have a look at my website](https://arash.codes)! I know it can be daunting to say hi, but [if you do](https://arash.codes/#connect), I'll be sure to say hi. Feel free to also check out [`function()`](https://blog.arash.codes), my blog, and [Δ Delta](https://garden.arash.codes), my digital garden — I'm equally proud of both.
 
 We're all learners in one way or another, and I hope your stop here has been helpful. Thank you for stopping by; go on and create awesome things!
