@@ -12,11 +12,11 @@ This space is where I explore with code. I find joy in seeing the code I write c
 <table style="width: 100%">
     <tr>
         <th scope="row" style="text-align: right">JavaScript</th>
-        <td>6 projects</td>
+        <td>7 projects</td>
     </tr>
     <tr>
         <th scope="row" style="text-align: right">Python</th>
-        <td>6 projects</td>
+        <td>5 projects</td>
     </tr>
     <tr>
         <th scope="row" style="text-align: right">TypeScript</th>
@@ -64,7 +64,7 @@ This space is where I explore with code. I find joy in seeing the code I write c
     </tr>
 </table>
 
-<sub>Last updated: 18 May 2026 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
+<sub>Last updated: 24 August 2026 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
