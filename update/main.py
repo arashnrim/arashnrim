@@ -43,7 +43,7 @@ else:
 logging.info("Attempting to reach GitHub's API...")
 query = requests.get(
     "https://api.github.com/search/repositories?q=user:arashnrim", timeout=10, headers={
-        "Authorization": f"token {os.getenv('PAT')}"
+        "Authorization": f"token {os.getenv('ACCESS_TOKEN')}"
     })
 count = {}
 
@@ -74,7 +74,7 @@ with open(".projectextras", encoding="utf-8") as file:
 
         query = requests.get(
             f"https://api.github.com/repos/{line}", timeout=10, headers={
-                "Authorization": f"token {os.getenv('PAT')}"
+                "Authorization": f"token {os.getenv('ACCESS_TOKEN')}"
             })
         if query.status_code != 200:
             logging.warning(

@@ -49,7 +49,7 @@ If you want to set up your own version of this script, here's what you need to d
    - You'll minimally need read-only access to contents, read-only access to metadata, and read and write access to workflows.
 2. Fork this repository.
 3. Go to your fork's settings, and open the Secrets and variables tab group. Open the Actions secrets tab.
-4. Click the edit button for the `PAT` secret, and paste your personal access token in the box. Click the Update secret button.
+4. Click the edit button for the `ACCESS_TOKEN` secret, and paste your personal access token in the box. Click the Update secret button.
 5. That's it! The workflow will run daily, and you can check the Actions tab to see if it's working.
 
 ## License
