@@ -16,11 +16,15 @@ This space is where I explore with code. I find joy in seeing the code I write c
     </tr>
     <tr>
         <th scope="row" style="text-align: right">Python</th>
-        <td>5 projects</td>
+        <td>6 projects</td>
     </tr>
     <tr>
         <th scope="row" style="text-align: right">TypeScript</th>
         <td>5 projects</td>
+    </tr>
+    <tr>
+        <th scope="row" style="text-align: right">HTML</th>
+        <td>3 projects</td>
     </tr>
     <tr>
         <th scope="row" style="text-align: right">Swift</th>
@@ -31,15 +35,15 @@ This space is where I explore with code. I find joy in seeing the code I write c
         <td>2 projects</td>
     </tr>
     <tr>
+        <th scope="row" style="text-align: right">Java</th>
+        <td>2 projects</td>
+    </tr>
+    <tr>
         <th scope="row" style="text-align: right">Go</th>
         <td>1 project</td>
     </tr>
     <tr>
         <th scope="row" style="text-align: right">Astro</th>
-        <td>1 project</td>
-    </tr>
-    <tr>
-        <th scope="row" style="text-align: right">HTML</th>
         <td>1 project</td>
     </tr>
     <tr>
@@ -62,9 +66,13 @@ This space is where I explore with code. I find joy in seeing the code I write c
         <th scope="row" style="text-align: right">Ruby</th>
         <td>1 project</td>
     </tr>
+    <tr>
+        <th scope="row" style="text-align: right">Jupyter Notebook</th>
+        <td>1 project</td>
+    </tr>
 </table>
 
-<sub>Last updated: 24 August 2026 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
+<sub>Last updated: 27 November 2026 — <a href="https://github.com/arashnrim/arashnrim/tree/main/update">curious about this?</a></sub>
 
 ---
 
